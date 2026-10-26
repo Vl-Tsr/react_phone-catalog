@@ -13,22 +13,22 @@ type Props = {
 const data = {
   error: {
     text: 'Oops! Looks like this page has gone missing',
-    src: '/public/img/page-not-found.png',
+    src: 'img/page-not-found.png',
   },
 
   favourites: {
     text: 'There are no items in your favourites yet',
-    src: '/public/img/cart-is-empty.png',
+    src: 'img/cart-is-empty.png',
   },
 
   cart: {
     text: 'There are no items in your cart yet',
-    src: '/public/img/cart-is-empty.png',
+    src: 'img/cart-is-empty.png',
   },
 
   product: {
     text: `Oops! We couldn't find the product you're looking for`,
-    src: '/public/img/product-not-found.png',
+    src: 'img/product-not-found.png',
   },
 };
 

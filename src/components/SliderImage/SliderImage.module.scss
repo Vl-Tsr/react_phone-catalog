@@ -30,7 +30,7 @@
   justify-self: start;
 
   &::after {
-    content: url('/public/icons/сhevron-arrow-left-primary.svg');
+    content: url('/icons/сhevron-arrow-left-primary.svg');
   }
 }
 
@@ -38,7 +38,7 @@
   justify-self: end;
 
   &::after {
-    content: url('/public/icons/chevron-arrow-right-primary.svg');
+    content: url('/icons/chevron-arrow-right-primary.svg');
   }
 }
 

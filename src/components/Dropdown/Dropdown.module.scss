@@ -41,7 +41,7 @@
   &::after {
     width: 16px;
     height: 16px;
-    content: url('/public/icons/chevron-arrow-down.svg');
+    content: url('/icons/chevron-arrow-down.svg');
 
     @include transition;
   }

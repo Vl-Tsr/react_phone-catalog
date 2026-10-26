@@ -40,7 +40,7 @@ export const NavIcons: React.FC<Props> = ({
           }}
         >
           <img
-            src={isBurgerOpen ? '/icons/close.svg' : '/icons/menu.svg'}
+            src={isBurgerOpen ? 'icons/close.svg' : 'icons/menu.svg'}
             alt="menu"
           />
         </button>
@@ -48,11 +48,11 @@ export const NavIcons: React.FC<Props> = ({
 
       <NavItem to={'favourites'} variant={navItemVariant}>
         <IconBadge count={favourites.length}></IconBadge>
-        <img src="/icons/favourites-heart-like.svg" alt="Favourites" />
+        <img src="icons/favourites-heart-like.svg" alt="Favourites" />
       </NavItem>
       <NavItem to={'cart'} variant={navItemVariant}>
         <IconBadge count={cartProducts.length}></IconBadge>
-        <img src="/icons/shopping-bag-cart.svg" alt="Cart" />
+        <img src="icons/shopping-bag-cart.svg" alt="Cart" />
       </NavItem>
     </div>
   );

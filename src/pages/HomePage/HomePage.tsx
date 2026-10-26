@@ -8,15 +8,15 @@ import { useStoreContext } from 'src/context/StoreContext';
 
 const sliderData = [
   {
-    src: '/public/img/banner-tablets.png',
+    src: 'img/banner-tablets.png',
     to: '/tablets',
   },
   {
-    src: '/public/img/banner-accessories.png',
+    src: 'img/banner-accessories.png',
     to: '/accessories',
   },
   {
-    src: '/public/img/banner-phones.png',
+    src: 'img/banner-phones.png',
     to: '/phones',
   },
 ];
@@ -30,19 +30,19 @@ export const HomePage = () => {
         title: 'Mobile phones',
         quantity: productByCategory.phones.length,
         to: '/phones',
-        src: '/public/img/category-phones-2.png',
+        src: 'img/category-phones-2.png',
       },
       {
         title: 'Tablets',
         quantity: productByCategory.tablets.length,
         to: '/tablets',
-        src: '/public/img/category-tablets-2.png',
+        src: 'img/category-tablets-2.png',
       },
       {
         title: 'Accessories',
         quantity: productByCategory.accessories.length,
         to: '/accessories',
-        src: '/public/img/category-accessories-2.png',
+        src: 'img/category-accessories-2.png',
       },
     ],
     [productByCategory],
