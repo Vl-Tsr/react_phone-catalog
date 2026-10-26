@@ -15,7 +15,7 @@ export const Logo = ({ className, variant, ...rest }: Props) => {
       className={cn(styles.link, className, styles[variant + 'Link'])}
     >
       <img
-        src="icons/Logo.svg"
+        src="icons/logo.svg"
         alt="logo"
         className={cn(styles[variant + 'Image'])}
       />
